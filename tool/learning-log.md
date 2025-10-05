@@ -8,7 +8,7 @@
 
 ### 10/5/25:
 #### Links
-
+[EarSketch](https://earsketch.gatech.edu/landing/#/)
 #### Tinkering
 
 #### Challenges

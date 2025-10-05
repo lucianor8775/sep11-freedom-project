@@ -6,11 +6,17 @@
 
 ---
 
-### X/X/XX:
-* Text
+### 10/5/25:
+#### Links
 
-### X/X/XX:
-* Text
+#### Tinkering
+
+#### Challenges
+
+#### Questions
+
+#### Next Steps
+
 
 
 <!-- 

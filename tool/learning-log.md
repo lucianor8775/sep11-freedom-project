@@ -8,9 +8,9 @@
 
 ### 10/5/25:
 #### Links
-[EarSketch](https://earsketch.gatech.edu/landing/#/)
+*[EarSketch](https://earsketch.gatech.edu/landing/#/)
 
-[Youtube](https://www.youtube.com/watch?v=KpEKplkGWhg)
+*[Youtube](https://www.youtube.com/watch?v=KpEKplkGWhg)
 
 #### Tinkering
 

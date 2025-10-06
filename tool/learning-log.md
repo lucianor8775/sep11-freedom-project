@@ -35,8 +35,12 @@ fitMedia(synth, 3, 1, 5);
 // End script
 finish();
 ```
-This code
-#### Challenges
+This code sets the tempo to 100 beats per minute, makes a kick drum plays every beat from 1 to 5, a snare hits on every off beat, and theres a synth like loop that plays behind the beat.
+* tempo is the speed at which music is played
+* kick drum is a type of drum
+* a snare is a type of drum that produces a rattling sound and
+* a synth loop is a repeating sound created by a synthesizer which is played back to make it repeat
+#### Challenge
 
 #### Questions
 

@@ -41,11 +41,14 @@ This code sets the tempo to 100 beats per minute, makes a kick drum plays every 
 * a snare is a type of drum that produces a rattling sound and
 * a synth loop is a repeating sound created by a synthesizer which is played back to make it repeat
 #### Challenge
-
+```js
+fitMedia(snare, 2, 1.5, 5);
+```
+This part of the code was a bit challenging because earsketch uses music time not seconds, so 1.5 means measure 1 beat 3(each measure has 4 beatsin 4/4 time) this was hard because i couldnt align sounds with beats good enough using the musical time instead of the actual time
 #### Questions
-
+not any at the moment but ill try to research deeper
 #### Next Steps
-
+For my next learning log i would like to try dive deeper into Earsketch and learn how to make music that i like so that i can develop my coding skills.
 
 
 <!-- 

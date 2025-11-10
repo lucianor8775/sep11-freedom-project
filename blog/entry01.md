@@ -37,6 +37,7 @@ Throughout my research process a few sources that I have used include [kaboom](k
 A few skills that I improved include the following:
 * researching
 * communicating
+  
 I have improved the skill of research by making use of my resources and asking others around me for help when I need help.
 I have improved the skill of communication by communicating with my partner Aaron on our project I did this by speaking with him about things that we did not agree on, things that we were very confused on and things we did not talk about enough.
 

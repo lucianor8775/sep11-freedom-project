@@ -58,3 +58,57 @@ For my next learning log i would like to try dive deeper into Earsketch and lear
 * Questions you still have
 * What you're going to try next
 -->
+
+## Tool: **Kaboom.js**
+
+## Project: **music/hangman game**
+
+---
+
+### 10/5/25:
+#### Links
+[Kaboom](Kaboom.js.com)
+
+[Youtube](https://www.youtube.com/watch?v=iRXI6ThRJvM&list=PLNwtXgWIx3rgk68WwrykC7BIJ50kT6ZpS&index=1)
+
+#### Tinkering
+```
+loadSound("bgm", "assets/music/bgm.mp3")
+
+// Because browsers block autoplay, wait for a click first
+onClick(() => {
+  play("bgm", {
+    loop: true,   // repeat forever
+    volume: 0.5,  // half volume
+  })
+  add([
+    text("Music is playing 🎵", { size: 24 }),
+    pos(24, 24),
+  ])
+})
+
+add([
+  text("Click anywhere to play music", { size: 24 }),
+  pos(24, 24),
+])
+</script>
+```
+This code plays background music when you click on the screen(used in my blog) This is one of the first things that I learned because it will be very useful to me in the future because the website i will make is going to include a lot on music
+* Bgm.mp3 is the background music that will be played
+* ``loop: true``makes the background music play forever
+* ``add([...])``is what added the text on the screen
+  
+#### Questions
+how do I make objects move in the game
+
+#### Next Steps
+For my next learning log I want to have a plan for my portion of the website because I am working with a partner. I would also love to have a general idea for the way that our website is gonna look/behave.
+
+
+<!-- 
+* Links you used today (websites, videos, etc)
+* Things you tried, progress you made, etc
+* Challenges, a-ha moments, etc
+* Questions you still have
+* What you're going to try next
+-->

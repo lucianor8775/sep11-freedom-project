@@ -65,7 +65,7 @@ For my next learning log i would like to try dive deeper into Earsketch and lear
 
 ---
 
-### 10/5/25:
+### 11/9/25:
 #### Links
 [Kaboom](Kaboom.js.com)
 

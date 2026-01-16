@@ -101,6 +101,7 @@ A few sources that were useful to me include:
 * [snakegame youtube video](https://www.youtube.com/watch?v=2pl7I16CkHs&t=99s) 
 * [kaboom.js youtube video](https://www.youtube.com/watch?v=iRXI6ThRJvM)
 * [awesome-kaboom](https://github.com/kaplayjs/awesome-kaboom?utm_source=chatgpt.com)
+
 these resources gave me an introduction into creating a game with Kaboom.js without giving me full answers on what was required of me and my partner aaron to code a version of Hangman.
 
 ### Skills

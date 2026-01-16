@@ -85,40 +85,16 @@ onDraw(() => {
   }
 });
 ```
-The most important part of my code is
-```
-function createPinkHangman() {
-  let mistakes = 0;
-
-  const hangmanParts = [
-    () => drawCircle(vec2(600, 200), 20, { color: rgb(255, 105, 180) }),
-    () => drawLine(vec2(600, 220), vec2(600, 280), { width: 4, color: rgb(255, 105, 180) }),
-    () => drawLine(vec2(600, 240), vec2(570, 260), { width: 4, color: rgb(255, 105, 180) }),
-    () => drawLine(vec2(600, 240), vec2(630, 260), { width: 4, color: rgb(255, 105, 180) }),
-    () => drawLine(vec2(600, 280), vec2(580, 320), { width: 4, color: rgb(255, 105, 180) }),
-    () => drawLine(vec2(600, 280), vec2(620, 320), { width: 4, color: rgb(255, 105, 180) }),
-  ];
-
-  onDraw(() => {
-    for (let i = 0; i < mistakes; i++) {
-      hangmanParts[i]();
-    }
-  });
-
-  return {
-    addMistake() {
-      if (mistakes < hangmanParts.length) mistakes++;
-    },
-    reset() {
-      mistakes = 0;
-    },
-    getMistakes() {
-      return mistakes;
-    },
-  };
-```
+in summary my code tracks the wrong guesses that the player makes, stores drawing insturctions, and draws the parts that are supposed to be visual, and automatically updates. which to summerize it this code basically removes a part of the hang man everytime you make an incorrect guess.
+in depth explaination:
+* "let mistakes =0" stores the amount of wrong guesses a player made. it starts at 0 since no mistakes were made yet
+* "const hangmanParts=[...]" is an array of functions were each function draws a specifc part of the body and the body part is only drawn when the function is called.
+* "onDraw(() => {...})" in my opinion the most important part because Kaboom run it in every frame
+   which is usually 60 times per second and it clears the screen and redraws it every time.
+* "for" isa loop and it starts at 0 and stops when "mistakes-1" and it calls each drawing function which basically creates the full hangman.
+* 
 ### Egineering Design Process
-
+this is a early version of my product that me and my partner am unsure of keeping/scraping just because we feel as if we could do better and readjust  
 
 ### Sources
 a few sources that were useful to me include:

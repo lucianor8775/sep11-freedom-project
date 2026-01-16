@@ -92,7 +92,7 @@ in depth explaination:
 * "onDraw(() => {...})" in my opinion the most important part because Kaboom runs it in every frame
    which is usually 60 times per second and it clears the screen and redraws it every time.
 * "for" is a loop and it starts at 0 and stops when "mistakes-1" and it calls each drawing function which basically creates the full hangman.
-* 
+   
 ### Egineering Design Process
 This is a early version of my product that me and my partner am unsure of keeping/scraping just because we feel as if we could do better and change some things about the current code. Me and my partner still need to figure out how to incorperate music into the game and how music will take part creating the hangman. 
 

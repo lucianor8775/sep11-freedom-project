@@ -112,3 +112,64 @@ For my next learning log I want to have a plan for my portion of the website bec
 * Questions you still have
 * What you're going to try next
 -->
+
+---
+
+### 1/15/26:
+#### Links
+[Kaboom](Kaboom.js.com)
+
+[Youtube]
+
+#### Tinkering
+```
+scene("menu", () => {
+    add([
+        text("HANGMAN", { size: 64 }),
+        pos(center().x, 120),
+        anchor("center"),
+    ])
+
+    const startBtn = add([
+        rect(220, 60),
+        pos(center().x, 240),
+        anchor("center"),
+        area(),
+        color(100, 100, 140),
+    ])
+
+    add([
+        text("START", { size: 32 }),
+        pos(startBtn.pos),
+        anchor("center"),
+    ])
+
+    startBtn.onClick(() => {
+        go("game")
+    })
+
+    add([
+        text("Click START to play", { size: 20 }),
+        pos(center().x, 330),
+        anchor("center"),
+        color(180, 180, 200),
+    ])
+})
+```
+This code is basically a game menu that has a start button, has a title, and transisions into gameplay.
+  
+#### Questions
+how do i add a keyboard so that players can type?
+
+#### Next Steps
+for my next learning log i want to implement music and maybe images for my code 
+
+
+<!-- 
+* Links you used today (websites, videos, etc)
+* Things you tried, progress you made, etc
+* Challenges, a-ha moments, etc
+* Questions you still have
+* What you're going to try next
+-->
+

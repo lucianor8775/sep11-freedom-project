@@ -156,7 +156,13 @@ scene("menu", () => {
     ])
 })
 ```
-This code is basically a game menu that has a start button, has a title, and transisions into gameplay.
+This code is basically a game menu that has a start button, has a title, and transisions into gameplay
+Kaboom
+*scene(creates game screen
+*add(creates object
+*rect(draws triangle)
+*area(enables clicking)
+*onclick(mouse interaction)
   
 #### Questions
 how do i add a keyboard so that players can type?

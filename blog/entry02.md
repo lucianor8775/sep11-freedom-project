@@ -6,11 +6,12 @@ me and my parter Aaron have been doing more research for our game that incorpora
 code snippet:
 
 
-### Sources
-
-
 ### Egineering Design Process
 
+
+### Sources
+a few sources that were useful to me include:
+*[
 
 ### Skills
 
